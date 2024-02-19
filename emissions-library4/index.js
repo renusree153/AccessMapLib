@@ -27,7 +27,7 @@ function LocationFinderComponent () {
   var phoneModel = null;
   console.log(isRunning);
   const intervalIdRef = useRef(null);
-  // useRef will  persist btw renders, doesnt cause component to reupdate on change
+  // useRef will  persist btw renders, doesnt cause component to re update on change
   // how can I get state of isEnabled into the useEffect
   useEffect(() => {
     if (!isRunning) {
